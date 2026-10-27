@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an incoming short-term postdoctoral research scientist at Emory University in Atlanta, where I will be working with [Dr. Lars Ruthotto](https://www.math.emory.edu/~lruthot/) on generative modeling approaches for stochastic optimal control and gaining teaching experience. 
+I am an incoming short-term research/teaching fellow at Emory University in Atlanta, where I will be working with [Dr. Lars Ruthotto](https://www.math.emory.edu/~lruthot/) on generative modeling approaches for stochastic optimal control and gaining teaching experience. 
 
 I obtained my Ph.D. in computational science, engineering and mathematics from the University of Texas at Austin in May 2026 under the supervision of [Dr. Umberto Villa](https://uvilla.github.io/). My Ph.D. research focused on the development of data-driven approaches for uncertainty quantification and experimental design with applications in computational imaging. During my Ph.D. I completed an internship at Mitsubishi Electric Research Laboratories, working with [Dr. Wael Ali](https://www.merl.com/people/wali).
 
