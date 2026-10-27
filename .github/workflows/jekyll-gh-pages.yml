@@ -2,7 +2,7 @@ name: Deploy Jekyll site to Pages
 
 on:
   push:
-    branches: ["main"] # Change to "master" if your branch is named master
+    branches: ["main"] # Change to "master" if your default branch is master
   workflow_dispatch:
 
 permissions:
@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-24.04 # Fixes the Ruby 3.1.7 unavailable error
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -27,6 +27,7 @@ jobs:
         with:
           source: ./
           destination: ./_site
+          token: ${{ secrets.GITHUB_TOKEN }} # Allows plugins to safely read repo metrics
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
@@ -40,3 +41,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
